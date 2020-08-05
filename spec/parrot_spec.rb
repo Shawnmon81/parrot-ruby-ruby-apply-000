@@ -24,8 +24,8 @@ describe '#parrot' do
   end
 end
 
-def parrot
-  puts "Squawk!"
+def parrot(phrase = "Squawk")
+  puts parrot
 end
 
-parrot
+
